@@ -1,0 +1,24 @@
+
+const CONFIG = {
+    name: "CLOUDCAST",
+    version: "1.0",
+    refreshMinutes: 10,
+
+    countries: {
+        BR: { largest: "São Paulo", capital: "Brasília" },
+        US: { largest: "New York", capital: "Washington" },
+        JP: { largest: "Tokyo", capital: "Tokyo" },
+        CA: { largest: "Toronto", capital: "Ottawa" },
+        GB: { largest: "London", capital: "London" },
+        FR: { largest: "Paris", capital: "Paris" },
+        DE: { largest: "Berlin", capital: "Berlin" },
+        PT: { largest: "Lisbon", capital: "Lisbon" },
+        AR: { largest: "Buenos Aires", capital: "Buenos Aires" },
+        AU: { largest: "Sydney", capital: "Canberra" },
+        IT: { largest: "Rome", capital: "Rome" },
+        ES: { largest: "Madrid", capital: "Madrid" },
+        IN: { largest: "Mumbai", capital: "New Delhi" },
+        MX: { largest: "Mexico City", capital: "Mexico City" },
+        NZ: { largest: "Auckland", capital: "Wellington" }
+    }
+};

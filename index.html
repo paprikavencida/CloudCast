@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>cloudcast | weather station</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="dashboard">
+
+        <header class="header">
+            <div class="branding">
+                <span class="logo">CLOUDCAST</span>
+                <span class="subtitle">WEATHER STATION</span>
+            </div>
+
+            <div class="clock">
+                <span id="date">--/--/----</span>
+                <span id="time">--:--:--</span>
+            </div>
+        </header>
+
+        <section class="main-content">
+
+            <div class="section-header">
+                <h1>Weather Overview</h1>
+                <span class="live-indicator">● LIVE</span>
+            </div>
+
+            <div class="weather-grid" id="weather-grid">
+                <!-- Os quatro cartões serão gerados pelo JavaScript -->
+            </div>
+
+        </section>
+
+        <footer class="footer">
+            <span>CLOUDCAST WEATHER STATION</span>
+            <span id="update-status">Initializing...</span>
+            <span id="version">V 1.0</span>
+        </footer>
+
+    </main>
+
+    <script src="config.json"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
