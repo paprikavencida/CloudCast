@@ -13,10 +13,6 @@ Cloudcast is a lightweight weather dashboard designed to display current weather
 - **Live Clock:** Displays the current date and time.
 - **Automatic Updates:** Refreshes weather information every 10 minutes.
 
-## Preview
-
-<!-- Add a screenshot of Cloudcast here -->
-
 ## Technologies
 
 - HTML5
