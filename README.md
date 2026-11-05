@@ -27,10 +27,8 @@ Cloudcast is a lightweight weather dashboard designed to display current weather
 Cloudcast/
 ├── index.html
 ├── config.js
-├── css/
-│   └── style.css
-└── js/
-    └── script.js
+├── style.css
+└── script.js
 ```
 
 ## Installation
